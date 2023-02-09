@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Order {
     private List<Product> products = new ArrayList<Product>();
-    private int id;
+    private final int id;
 
     public Order(int id) {
         this.id = id;
